@@ -12,6 +12,7 @@
       html { background-color: #111111; color: #fbfbfb; }
       a { color: #ca8465; }
     }
+    
     body {
       line-height: 1.6;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
@@ -23,7 +24,23 @@
       justify-content: center;
       align-items: center;
     }
+    
+    li {
+     list-style-type: none;
+     margin-left: -2em;
+     padding: .5em;
+     font-size: 2em;
+     margin-right: auto;
+}
 
+li a {
+  margin-left: .5em;
+}
+
+h1 {
+    opacity:.5;
+}
+    
     .JR {
       padding-top: 35px;
     }
@@ -34,10 +51,15 @@
       opacity: 15%;
       font-size: xx-small;
    }
+   
+   .footer p {
+       font-style:italic;opacity:50%;font-size:small;
+   }
+   
   </style>
 </head>
 <body>
-<div>
+<div class="main">
 <h1>QuickLinks</h1>
 <p>
 <ul>
@@ -55,6 +77,11 @@
 </ul>
 </p>
 </div>
-  <p style="font-style:italic;opacity:50%;font-size:small;">ⓡ A <a href="https://joeross.me" style="text-decoration-style: dotted;">Joe Ross</a> production</p>
+
+<div class="footer">
+  <p>QuickLinks is my artisanal browser homepage,<br />linking to my favorite news sources.</p>
+  <p>ⓡ A <a href="https://joeross.me" style="text-decoration-style: dotted;">Joe Ross</a> production</p>
+</div>
+
 </body>
 </html>
