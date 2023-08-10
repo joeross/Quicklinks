@@ -1,37 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <style> 
+<head>
 
-#container {
-    display: flex;              /* establish flex container */
-    flex-direction: column;     /* stack flex items vertically */
-    justify-content: center;    /* center items vertically, in this case */
-    align-items: center;        /* center items horizontally, in this case */
-    height: 500px;
-    border: 1px solid black;
-}
+  <script src="https://kit.fontawesome.com/abc8184f51.js" crossorigin="anonymous"></script>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickLinks</title>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      html { background-color: #111111; color: #fbfbfb; }
+      a { color: #ca8465; }
+    }
+    body {
+      line-height: 1.6;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+      text-align: center;
+      margin: 1rem auto;
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 
-.box {
-    width: 100%;
-    margin: 1em;
-    text-align: center;
-    text-size: 2em;
-}
+    .JR {
+      padding-top: 35px;
+    }
 
-h1 {
-text-size: 3em;
-}
-    
-</style>
+    .JR p {
+      padding-top: 15px;
+      font-style: italic;
+      opacity: 15%;
+      font-size: xx-small;
+   }
+  </style>
 </head>
 <body>
-<div id="container"> 
-<h1 class="box">💻 <a href="https://www.techmeme.com/m/">Techmeme</a></h1>
-<h1 class="box">📰 <a href="https://news.google.com/">Google News</a></h1>
-<h1 class="box">👨🏻‍💻 <a href="https://news.ycombinator.com/">Hacker News</a></h1>
-<h1 class="box">🔀 <a href="https://indieblog.page/random">IndieWeb</a></h1>
-<h1 class="box">🌎 <a href="https://www.allsides.com/unbiased-balanced-news">AllSides</a></h1>
+<div>
+<h1>QuickLinks</h1>
+<p>
+<ul>
+  
+<li>💻 <a href="https://www.techmeme.com/m/" >Techmeme</a></li>
+
+<li>📰 <a href="https://news.google.com/" >Google News</a></li>
+
+<li>👨🏻‍💻 <a href="https://news.ycombinator.com/">Hacker News</a></li>
+
+<li>🔀 <a href="https://indieblog.page/random" >IndieWeb</a> </li>
+
+<li>🌎 <a href="https://www.allsides.com/" >AllSides</a></li>
+
+</ul>
+</p>
 </div>
+  <p style="font-style:italic;opacity:50%;font-size:small;">ⓡ A <a href="https://joeross.me" style="text-decoration-style: dotted;">Joe Ross</a> production</p>
 </body>
 </html>
