@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><html lang="en"><head>
   <style> 
  
-.item {
-  text-size: 25em;
+
+#container {
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+    height: 300px;
+    border: 1px solid black;
+}
+
+.box {
+    width: 300px;
+    margin: 5px;
+    text-align: center;
 }
     
 </style>
 </head>
 <body>
-<div class="item">💻 <a href="https://www.techmeme.com/m/">Techmeme</a></div>
-<div class="item">📰 <a href="https://news.google.com/">Google News</a></div>
-<div class="item">👨🏻‍💻 <a href="https://news.ycombinator.com/">Hacker News</a></div>
-<div class="item">🔀 <a href="https://indieblog.page/random">IndieWeb</a></div>
-<div class="item">🌎 <a href="https://www.allsides.com/unbiased-balanced-news">AllSides</a></div>
+<div id="container"> 
+<div class="box">💻 <a href="https://www.techmeme.com/m/">Techmeme</a></div>
+<div class="box">📰 <a href="https://news.google.com/">Google News</a></div>
+<div class="box">👨🏻‍💻 <a href="https://news.ycombinator.com/">Hacker News</a></div>
+<div class="box">🔀 <a href="https://indieblog.page/random">IndieWeb</a></div>
+<div class="box">🌎 <a href="https://www.allsides.com/unbiased-balanced-news">AllSides</a></div>
+</div>
 </body>
 </html>
