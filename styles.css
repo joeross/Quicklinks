@@ -1,0 +1,61 @@
+@media (prefers-color-scheme: dark) {
+    html {
+      background-color: #111111;
+      color: #fbfbfb;
+    }
+
+    a {
+      color: #ca8465;
+      text-decoration: none;
+    }
+  }
+
+  body {
+    line-height: 1.6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    margin: 1rem auto;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  li {
+    list-style-type: none;
+    margin-left: -2em;
+    padding: .5em;
+    margin-right: auto;
+  }
+
+  h1 {
+    opacity: .5;
+  }
+
+  h2 {
+    opacity: .75;
+  }
+
+  .JR {
+    padding-top: 35px;
+  }
+
+  .JR p {
+    padding-top: 15px;
+    font-style: italic;
+    opacity: .25;
+    font-size: x-small;
+  }
+
+  .footer p {
+    font-style: italic;
+    opacity: .5;
+    text-align: center;
+    font-size: x-small;
+  }
+
+  .subtitle {
+    opacity: .5;
+    margin: -2em;
+    padding: 0 5em 0 10em;
+  }
