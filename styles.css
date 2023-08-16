@@ -59,3 +59,8 @@
     margin: -2em;
     padding: 0 5em 0 10em;
   }
+
+.discovery {
+    margin-top:-1.5em; 
+    opacity:.75;
+}
