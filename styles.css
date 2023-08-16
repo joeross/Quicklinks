@@ -60,7 +60,7 @@
     padding: 0 5em 0 10em;
   }
 
-.discovery {
+.discovery, .discovery p {
     margin-top:-1.5em; 
     opacity:.75;
 }
